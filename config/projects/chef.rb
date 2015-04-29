@@ -48,7 +48,7 @@ end
 # For now we resolve it by using an older version of the cert. This only works
 # if you have this version of the CA bundle stored via S3 caching (which Chef
 # Software does).
-override :cacerts, version: '2014.08.20'
+#override :cacerts, version: '2014.08.20'
 
 override :bundler,        version: "1.9.4"
 override :ruby,           version: "2.1.6"
