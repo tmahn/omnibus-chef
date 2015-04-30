@@ -43,7 +43,7 @@ build do
                   "#{install_dir}/embedded/lib"
                 end
 
-  # Install the ZMQ gem separately so the native extenstion
+  # Install the ZMQ gem separately so the native extension
   # compiles correctly.
   gem "install zmq" \
       " --no-ri --no-rdoc" \
