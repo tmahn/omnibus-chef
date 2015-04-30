@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/opscode/omnibus-software.git
-  revision: 842e15fcf08a6a252c30d6524debd24a765de4c8
+  revision: b4e862fa228e55663c733cf7ac5c0205e5c9dffd
   branch: ma/zmq4
   specs:
     omnibus-software (4.0.0)
