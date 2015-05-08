@@ -88,10 +88,13 @@
     <Feature Id="ChefClientFeature" Title="!(loc.FeatureMainName)" Absent="disallow" AllowAdvertise="no" Level="1" ConfigurableDirectory="INSTALLLOCATION">
       <ComponentGroupRef Id="ProjectDir" />
       <ComponentRef Id="ChefClientPath" />
-      <ComponentRef Id="ChefPSModuleFile" />
-      <ComponentRef Id="ChefPSModulePath" />
       <ComponentRef Id="CONFIGLOCATIONDIR" />
       <ComponentRef Id="ChefClientLog" />
+    </Feature>
+
+    <Feature Id="ChefPSModuleFeature" Title="!(loc.FeaturePSModuleName)" Level="1000" AllowAdvertise="no">
+      <ComponentRef Id="ChefPSModuleFile" />
+      <ComponentRef Id="ChefPSModulePath" />
     </Feature>
 
     <Feature Id="ChefServiceFeature" Title="!(loc.FeatureServiceName)" Level="1000" AllowAdvertise="no">
